@@ -1,0 +1,89 @@
+@import url("global.css");
+@import url("header.css");
+@import url("footer.css");
+@import url("formulario.css");
+@import url("contato.css");
+
+#background {
+    border-radius: 44% 60% 100% 0%;
+    background: linear-gradient(#570a57 20px, #ff8d29 800px, #ffffff 0);
+  }
+
+.bloco1-container {
+    height: 20%;
+    width: 45%;
+    margin-top: 5%;
+    color: #050101;
+    background-color: rgba(211, 111, 40, 0.178);
+    border: solid rgba(210, 105, 30, 0.103); 
+    border-radius: 24%;
+}
+
+.bloco2 {
+    height: 20%;
+    width: 45%; 
+    margin-left: 50%;
+    margin-top: -35%;
+    color: #050101;
+    background-image: linear-gradient(to right, rgba(3, 158, 219, 0.651) , rgba(80, 6, 179, 0.664));
+    border: solid 2px rgba(57, 170, 236, 0.582);
+    border-radius: 26%;
+}
+
+.bloco3 {
+    height: 20%;
+    width: 43%;
+    margin-left: 25%; 
+    margin-top: 5%;
+    color: #050101;
+    background-color: rgba(233, 220, 153, 0.301);
+    border: solid 2px rgba(209, 230, 241, 0.356);
+    border-radius: 33%;
+}
+.bloco4 {
+    margin-left: 10%; 
+    margin-top: 1%;
+}
+
+.img-bloco1 {
+    margin: center;
+    width: 100%;
+    border-radius: 32%;
+}
+
+.img-bloco2 {
+    border-radius: 50%;
+}
+
+.img-bloco3 {
+    border-radius: 50%;
+}
+
+.bloco1-container h2 {
+    text-align: center ;
+    text-decoration-line:underline;
+    height: 60px;
+    margin-top: 5%;
+    
+}
+.bloco2 h2 {
+    text-align: center ;
+    text-decoration-line:underline;
+    height: 60px;
+    margin-top: 5%;
+    
+}
+.bloco3 h2 {
+    text-align: center ;
+    text-decoration-line:underline;
+    height: 60px;
+    margin-top: 5%;
+    
+}
+
+p {
+    text-align: center;
+}
+
+
+

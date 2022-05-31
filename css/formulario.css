@@ -1,0 +1,66 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form label {
+  display: block;
+  font: 400 1rem/1.5;
+  margin-bottom: 4px;
+}
+
+.form .col-2 {
+  grid-column: span 2;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  font: 400 1rem/1.5;
+  background: #f6f6f6;
+  border: 1px solid  #e4e4e4;
+  padding: 12px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: #f6f6f6;
+  background: #e4e4e4;
+  box-shadow: 0 0 0 2px #fea;
+}
+
+.form select[name="funcionarios"],
+.form select[name="cargo"],
+.form option[value=""]{
+  font: 400 1rem/1.5;
+  background: #f6f6f6;
+  border: 1px solid  #e4e4e4;
+  padding: 12px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form select[name="funcionarios"]:focus,
+.form select[name="cargo"]:focus,
+.form option[value=""] {
+  outline: none;
+  border-color: #f6f6f6;
+  background: #e4e4e4;
+  box-shadow: 0 0 0 2px #fea;
+}
+
+@media (max-width: 600px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+  .form .col-2 {
+    grid-column: 1;
+  }
+}

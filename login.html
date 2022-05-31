@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="icon" href="img/katz.digital-icon.png" type="image/png">
+  <link rel="stylesheet" href="css/footer1.css">
+  <title>Katz.Digital</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-nav container">
+      <div class="header-logo">
+        <a href="home.html"><img src="img/katz.digital-icon.png" alt="Katz.Digital" width=90 height=90></a>
+        <p>Katz.Digital</p>
+      </div>
+      <a class="header-mobile" href="#" aria-label="Abrir Menu"></a>
+      <nav>
+        <ul class="header-menu">
+          <li><a href="quemSomos.html">Quem Somos</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="trabalheconosco.html">Trabalhe Conosco</a></li>
+          <li><a href="faleconosco.html">Fale Conosco</a></li>
+          <li> <button><a href="login.html">Login</a></button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="principal">
+    <div class="home-nav">
+      <p>
+        <a href="/home.html">Início</a> | <span class="page"> Login </span>
+      </p>
+    </div>
+    <section class="login" aria-label="Acesso ao usuário">
+      <div class="login container">
+        <div class="login-acess">
+          <form action="js/login.js" method="POST" class="form">
+            <h2>Entrar</h2>
+            <p class="login-username">
+              <label for="username">
+                E-mail de cadastro:
+                <span class="required">*</span>
+              </label>
+              <input class="username-text" type="text" name="username" placeholder="Digite seu Email" autocomplete="username" value>
+            </p>
+            <div class="background"></div>
+            <p class="login-password">
+              <label for="password">Senha:
+                <span class="required">*</span>
+              </label>
+              <input class="password-text" name="password" type="password" placeholder="Senha">
+              <label for="checkbox">
+            </p>
+            <div class="login-recuperar-conta">
+              <span><input class="checkbox" type="checkbox" name="rememberme" type="checkbox" value="forever"><span>Lembre-me</span></label></span>
+              <span><a href="/">Criar Conta</a> |
+                <a href="/">Esqueci Minha Senha</a></span>
+            </div>
+            </p>
+            <p class="login-button">
+              <button type="submit" class="botao botao1" name="login" value="Acessar">Acessar</button>
+            </p>
+          </form>
+        </div>
+        <div class="empresa">
+          <img src="img/KATZ.Digital.png"" alt=" Katz Digital">
+          <h1 class="introducao-titulo">
+            Sua empresa de marketing digital
+          </h1>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <nav class="footer-sub-menu">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="trabalheconosco.html">Trabalhe Conosco</a></li>
+        <li><a href="quemSomos.html">Quem Somos</a></li>
+        <li></li>
+      </ul>
+    </nav>
+    <div class="informacao">
+        <img class="logo1" src="img/KATZ.Digital1.png" alt="imagem do logo Marketing Katz. Digital" width="120">
+        <address class="contato-meios">
+        </address>
+        <div class="Copyright">
+          </div>
+          <br>
+          <p class="copy">© Copyright 2021. Todos os direitos reservados.</p>
+        </div>
+    </div>
+  </footer>
+
+  </body>
+
+</html>

@@ -1,0 +1,158 @@
+@import url("global.css");
+@import url("header.css");
+@import url("footer.css");
+@import url("formulario.css");
+@import url("contato.css");
+
+@media screen and (min-width: 800px) {}
+
+@media screen and (max-width: 300px) {}
+
+@media screen and (max-width: 600px) {}
+
+
+#background {
+    background-image: linear-gradient(110deg, #ffda52 0%, #cf5c04 0%, #ff8c00 100%);
+    border-radius: 90% 10% 100% 40%;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.fundo {
+    background-image: url(../img/katz.digital-icon-branco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.bloco1-container {
+    height: 10%;
+    width: 20%;
+    color: #000000;
+    margin-left: 8%;
+    margin-top: 5%;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, rgba(3, 158, 219, 0.068), rgba(80, 6, 179, 0.664));
+    border: 2px solid rgb(81, 38, 7);
+
+}
+
+.img-bloco1 {
+    width: 100%;
+    border-radius: 20px;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.img-bloco1 {
+    margin: center;
+    width: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    color: #000000;
+}
+
+h2 {
+    color: #000000;
+    text-decoration-line: underline;
+    height: 69px;
+    margin-top: 5%;
+
+}
+
+.bloco2 {
+    height: 10%;
+    width: 20%;
+    margin-left: 37%;
+    margin-top: -18%;
+    color: #050101;
+    border-radius: 13px;
+    background-image: linear-gradient(to right, rgba(3, 158, 219, 0.068), rgba(80, 6, 179, 0.664));
+    border: 2px solid rgb(81, 38, 7);
+}
+
+.img1 {
+    width: 100%;
+    border-radius: 14px;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.bloco3 {
+    height: 10%;
+    width: 20%;
+    margin-top: -18%;
+    margin-left: 67%;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, rgba(3, 158, 219, 0.068), rgba(80, 6, 179, 0.664));
+    border: 2px solid rgb(81, 38, 7);
+}
+
+.img2 {
+    width: 100%;
+    border-radius: 14px;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.bloco4 {
+    height: 10%;
+    width: 20%;
+    margin-left: 8%;
+    margin-top: 4%;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, rgba(3, 158, 219, 0.068), rgba(80, 6, 179, 0.664));
+    border: 2px solid rgb(81, 38, 7);
+}
+
+.bloco5 {
+    height: 10%;
+    width: 20%;
+    margin-left: 37%;
+    margin-top: -17%;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, rgba(3, 158, 219, 0.068), rgba(80, 6, 179, 0.664));
+    border: 2px solid rgb(81, 38, 7);
+}
+
+.bloco6 {
+    height: 10%;
+    width: 20%;
+    margin-left: 67%;
+    margin-top: -17%;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, rgba(3, 158, 219, 0.068), rgba(80, 6, 179, 0.664));
+    border: 2px solid rgb(81, 38, 7);
+}
+
+.bloco7 {
+    height: 10%;
+    width: 20%;
+    margin-left: 67%;
+    margin-top: 2%;
+    border-radius: 30px;
+}
+
+.img3 {
+    width: 100%;
+    border-radius: 33px;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.img4 {
+    width: 100%;
+    border-radius: 33px;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.img5 {
+    width: 100%;
+    border-radius: 33px;
+    background-position: cover;
+    background-repeat: no-repeat;
+}

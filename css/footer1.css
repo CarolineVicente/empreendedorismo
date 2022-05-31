@@ -1,0 +1,49 @@
+.informacao {
+    width: 50%;
+    height: 50%;
+    background: cover;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    margin-top: -13.9%;
+
+}
+
+ul a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-sub-menu {
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 15%;
+    height: 10%;
+    color: #ffffff;
+}
+
+.logo1 {
+    margin-left: 65%;
+    margin-top: -10;
+}
+
+.contato-meios {
+    margin-left:58%;
+}
+
+.contato-meios {
+    margin-top: 4%;
+}
+
+.Copyright {
+    color: #ffffff;
+    margin-top: 1%;
+}
+.contato-redes {
+    margin-left: 58%;
+    margin-top: -3%;
+}
+
+.copy {
+    color: #ffffff;
+    margin-left: 60%;
+}
